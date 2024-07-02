@@ -16,6 +16,12 @@ def about():
     return render_template('about.html')
 
 
+# API for the skills page
+@app.route('/skills')
+def skills():
+    return render_template('skills.html')
+
+
 # API for the contact page
 @app.route('/contact')
 def contact():
