@@ -1,10 +1,20 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>About</h1>
-<p class="lead">
-    Explore my skills, education, and projects to learn more about what I can offer.</p>
-<p>View my CV</p>
+<div class="card">
+    <div class="card-body">
+      <h1 class="text-center mb-4">About</h1>
+    </div>
+</div>
+<br>
+<div class="card">
+    <div class="card-body">
+        <p class="lead">
+            Explore my skills, education, and projects to learn more about what I can offer.</p>
+            <p>View my CV below or <a href="{{ url_for('static', filename='pdfs/Sineads CV.pdf') }}" download>download my CV (PDF)</a></p>
+    </div>
+</div>
+
 <div class="embed-responsive embed-responsive-16by9 mt-4">
     <embed class="embed-responsive-item" src="{{ url_for('static', filename='pdfs/Sineads CV.pdf') }}"
         type="application/pdf" style="width: 100%; height: 600px;">
