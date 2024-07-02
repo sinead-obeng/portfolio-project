@@ -22,6 +22,12 @@ def skills():
     return render_template('skills.html')
 
 
+# API for the work page
+@app.route('/work')
+def work():
+    return render_template('work.html')
+
+
 # API for the contact page
 @app.route('/contact')
 def contact():
