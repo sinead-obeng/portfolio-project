@@ -58,6 +58,5 @@ python app.py
 
 - **Flask**: Web framework for Python.
 - **HTML/CSS**: Front-end development.
-- **JavaScript**: Adds interactivity to the website.
 - **Bootstrap**: Front-end framework for responsive design.
 
